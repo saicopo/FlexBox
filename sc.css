@@ -1,0 +1,25 @@
+main{
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border:solid  3px blue;
+
+}
+.core{
+    display: flex;
+    background-color: rgb(172, 35, 131);
+    border: solid  3px rgb(51, 255, 0);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.core > div{
+    align-content: center;
+    border: solid  3px rgb(109, 34, 0);
+}
+.menu > div{
+    border: solid 3px black; 
+}

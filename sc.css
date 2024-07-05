@@ -1,85 +1,98 @@
+body {
+    background-color: rgb(165, 179, 179);
+}
+
 main {
-    display: flex;
+  display: flex;
+  width: 100vw;
+  margin: 0;
+  padding: 0%;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
-h3{
-    color: azure;
-    font-weight: 500;
-    height: 20px;
-    margin: 5px;
+
+h3 {
+  color: azure;
+  font-weight: 500;
+  height: 20px;
+  margin: 5px;
 }
-p{
-    color: rgb(161, 153, 153);
-    font-weight: 200;
-    margin: 5px;
-    height: 20px;
+
+p {
+  color: rgb(97, 90, 90);
+  font-weight: 200;
+  margin: 5px;
+  height: 20px;
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(245, 245, 245);
-    border: solid 3px rgb(17, 11, 11);
-    color: rgb(10, 10, 10);
-    font-size: x-small;
-
-
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(202, 197, 197);
+  border: solid 3px rgb(17, 11, 11);
+  color: rgb(10, 10, 10);
+  font-size: x-small;
+  
+  
 }
 
-.menu>div {
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3px;
-    padding: 2px;
-    border: solid 2px black;
-
+.menu > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  padding: 2px;
+  border: solid 2px black;
 }
 
-.menu>div>img {
-    height: 20px;
-    width: 20px;
-    align-items: center;
-    border-radius: 3px;
-
+.menu > div > img {
+  height: 20px;
+  width: 20px;
+  align-items: center;
 }
 
 .core {
-    display: flex;
+  display: flex;
 
-    background-color: rgb(7, 10, 10);
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  background-color: rgb(165, 179, 179);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+ }
 
+
+.core > div {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 3px black;
+  padding: 4px;
+  margin-top: 8px;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 0;
 }
 
-.core>div {
-    align-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 4px;
+.core > div > img {
+  object-fit: contain;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
+.title{
+    display: flex;
+    width: 200px;
+    margin-top: 3px;
+}
+.title>img{
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 7px;
+    padding-left: 0;
+    height:100% ;
+}
